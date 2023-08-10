@@ -50,4 +50,14 @@ Files related to a sample video created to help .Net developers to publish a sim
   
   `sudo dotnet [YourAppName].dll`
 
-10- `nano /etc/systemd/system/[YourAppName].service` and then use the `LinuxWebAppTest.service` to create your file 
+10-`nano /etc/systemd/system/[YourAppName].service` and then use the `LinuxWebAppTest.service` to create your file. Replace LinuxWebAppTest with your app's name
+
+
+11-
+
+`sudo systemctl enable [YourAppName].service`
+
+
+`sudo systemctl start [YourAppName].service`
+
+12-`sudo nginx -s reload`
