@@ -1,7 +1,7 @@
 # DotNetLinuxDeploy
 Files related to a sample video created to help .Net developers to publish a simple .Net web app to Linux server
 
-* [The tutorial] (https://youtu.be/cpkX9mScZEU)
+* [The tutorial](https://youtu.be/cpkX9mScZEU)
   
 * To learn `nano` (Command-line text editor used here)  you can wath [this 5 min video](https://www.youtube.com/watch?v=NV9PyPJKqH4) 
 
