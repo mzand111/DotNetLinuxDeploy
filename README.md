@@ -1,7 +1,11 @@
 # DotNetLinuxDeploy
 Files related to a sample video created to help .Net developers to publish a simple .Net web app to Linux server
 
-To learn `nano` (Command-line text editor used here)  
+-To learn `nano` (Command-line text editor used here)  
+
+-WinSCP website : https://winscp.net
+
+
 
 1- `sudo apt-get update`
 
@@ -16,3 +20,14 @@ To learn `nano` (Command-line text editor used here)
 6-`sudo apt-get install nginx`
 
 7-`sudo nano /etc/nginx/sites-available/default`
+
+8-
+`cd /var/www`
+
+`sudo mkdir app`
+
+`sudo chmod 777 app`
+ 
+`sudo chown [UserName] app`
+
+
